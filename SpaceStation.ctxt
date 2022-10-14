@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=SpaceStation
+comment0.text=\r\n\ The\ space\ station\ moves\ diagonally\ from\ upper-left\ to\ lower\ right.\ It\ is\r\n\ green\ on\ the\ first\ orbit\ (the\ first\ time\ it\ moves\ on\ a\ diagonal),\ yellow\r\n\ on\ the\ second\ orbit,\ and\ red\ thereafter\ until\ a\ new\ refueling\ operation\r\n\ begins.\r\n\ \r\n\ @author\ Carl\ Singer,\ Brian\ Howard,\ David\ Maharry\r\n\ @version\ September\ 2004\r\n\ @version\ September\ 2005,\ revised\ by\ Carl\ Singer\r\n\ @version\ September\ 2006,\ revised\ by\ Carl\ Singer\r\n
+comment1.params=simCanvas
+comment1.target=SpaceStation(Canvas)
+comment1.text=\r\n\ Creates\ a\ space\ shuttle\ as\ a\ Diamond\ object\ at\ a\ random\ position\ at\ the\ top\ of\r\n\ \ \ \ the\ simulation\ window.\ Once\ the\ space\ station\ is\ initialized\ it\ should\ begin\r\n\ \ \ \ to\ orbit.\r\n\ \r\n\ @param\ canvas\ the\ canvas\ on\ which\ to\ render\ the\ space\ station\r\n
+comment2.params=
+comment2.target=void\ moveSmallDistance()
+comment3.params=
+comment3.target=void\ reFuel()
+comment4.params=newSpeed
+comment4.target=void\ setSpeed(char)
+comment4.text=\r\n\ setSpeed\ set\ the\ orbiting\ speed\ according\ to\ 'B',\ 'I',\ or\ 'A'.\r\n
+comment5.params=
+comment5.target=int\ getXPosition()
+comment6.params=
+comment6.target=int\ getYPosition()
+numComments=7
